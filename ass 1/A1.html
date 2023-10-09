@@ -1,0 +1,24 @@
+Design a HTML form to accept two numbers and arithmetic operation to be performed from the user.
+Write a PHP script to perform arithmetic operations on the operands given by the user and display
+the result of the operation. 
+<!doctype html>
+<html>
+<body>
+<head>
+<title>Arithmatic Calculator</title>
+</head>
+<h1>Arithmatic Calculator</h1>
+<form action="operation.php" method="post">
+Enter operand 1: <input type="number" name="operand1" required><br>
+Enter operand 2: <input type="number" name="operand2" required><br>
+select operations:
+<select name="operations">
+<option value="addition">Addition</operator>
+<option value="subtraction">Subtraction</operator>
+<option value="multiplicatioin">Multiplication</operator>
+<option value="division">Division</operator>
+</select><br>
+<input type="submit" value="calculate">
+</form>
+</body>
+</html>
