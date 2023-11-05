@@ -1,7 +1,7 @@
 <?php
-$operand1 = $_POST{'operand1'};
-$operand2 = $_POST{'operand2'};
-$operation = $_POST{'operation'};
+$operand1 = $_POST['operand1'];
+$operand2 = $_POST['operand2'];
+$operation = $_POST['operation'];
 
 switch($operation){
 case "addition";
